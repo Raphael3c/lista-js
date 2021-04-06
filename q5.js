@@ -2,8 +2,8 @@ const dinheiro = (valor) => {
 
     const valorFixed = valor.toFixed(2);
     const valorString = String(valorFixed);
-    const valorReais = valorString.replace(',' , '.');
-    const result = `R$${valorReais}`;
+    const valorEmReais = valorString.replace(',' , '.');
+    const result = `R$${valorEmReais}`;
 
     console.log(result);    
 }
