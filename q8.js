@@ -22,10 +22,7 @@ const verificaRecordes = (listaPontuacao) => {
     }
 
     return [recordes, diaDoPiorJogo]
-
 }
-
-
 
 const listaPontuacao ='10 20 20 8 25 3 0 30 1'
 
