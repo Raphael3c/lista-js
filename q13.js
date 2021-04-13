@@ -24,7 +24,6 @@ const dia = (dia) => {
             console.log("Dia útil");
             break;
 
-
         case 7:
             console.log("Fim de semana");
             break;
